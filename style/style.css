@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-row-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: green;
+    font-size: 40px;
+    font-weight: bolder;
+    /* font-style: italic; */
+}
+
+.header-row-1 input {
+    height: 25px;
+    width: 250px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.login-a button {
+    height: 35px;
+    width: 90px;
+    background-color: rgb(5, 193, 5);
+    border-radius: 20px;
+    border: 1px solid transparent;
+    color: white;
+    font-weight: 520;
+    cursor: pointer;
+}
+
+.header-row-2 {
+    background-color: black;
+    padding: 5px 7px;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+
+section {
+    margin: 50px 0;
+}
+
+.mid-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.mid-nav > a button {
+    height: 30px;
+    width: 90px;
+    background-color: green;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    color: white;
+    font-weight: 550;
+}
+
+hr {
+    margin: 30px 0;
+}
+
+.cont-1 {
+    background-color: rgb(131, 253, 131);
+    padding: 30px 10px;
+    border-radius: 2px;
+}
+
+.cont-1 p {
+    margin: 20px 0;
+}
+
+.cont-1 > div p {
+    padding: 10px;
+    /* overflow: hidden; */
+    width: max-content;
+    border-radius: 5px;
+}
+
+.stu {
+    background-color: green;
+    margin: 10px 0;
+}
+.wat {
+    background-color: black;
+}
+
+.cont-2 h1 {
+    margin-bottom: 10px;
+}
+
+.cont-3 h1 {
+    margin-bottom: 10px;
+}
+
+.cont-3 button {
+    margin: 20px 0 0 0;
+    background-color: grey;
+    border-radius: 5px;
+    width: max-content;
+    padding: 10px 15px;
+    border: transparent;
+}
+
+/* Home Page Code Ends Here */
+
+/* Signup Page Code Starts Here */
+
+.signup-body {
+    max-width: 35%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.heading {
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+form {
+    margin-top: 30px;
+}
+
+.norm input {
+    width: 86.5%;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: 1px solid purple;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.norm-flexdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.norm-flexdiv p {
+    font-size: 14px;
+}
+
+.norm-flexdiv a {
+    color: green;
+    font-size: 14px;
+}
+
+.submit {
+    color: white;
+    background-color: rgb(5, 147, 5);
+    height: 40px;
+    width: 120px;
+    border: transparent;
+    border-radius: 15px;
+    margin-top: 3px;
+}

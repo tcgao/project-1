@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
+</head>
+<body class="signup-body">
+    <div>
+        <a class="logo" href="index.html">W3</a>
+    </div>
+    <p class="heading">Sign Up</p>
+    <form>
+        <div class="norm">
+            <div class="norm-flexdiv">
+                <label for="email">Email</label>
+                <p>Have an account? <a href="login.html">Log In</a></p>
+            </div>
+            <input type="email" placeholder="Enter Your Email" name="email" required>
+        </div>
+        <div class="norm">
+            <label for="pwd">Password</label><br>
+            <input type="password" name="pwd" placeholder="Enter your password" minlength="6" required>
+        </div>
+        <div class="norm">
+            <label for="con_pwd">Confirm Password</label><br>
+            <input type="password" name="con_pwd" placeholder="Confirm your password" minlength="6" required>
+        </div>
+        <div>
+            <input type="submit" value="Sign Up" class="submit">
+        </div>
+    </form>
+</body>
+</html>
